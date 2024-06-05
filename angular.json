@@ -75,7 +75,10 @@
               "browserTarget": "angular-authguard:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "proxyConfig": "src/proxy.json"
+        }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -103,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d7a5560d-f0b3-4ec2-a1aa-69a5ffce8bc4"
   }
 }
